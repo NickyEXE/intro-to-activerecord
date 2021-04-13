@@ -1,5 +1,6 @@
 # Intro to ActiveRecord Objectives:
 
+- Discuss class inheritance in Ruby
 - Review what an ORM is
 - Discuss ActiveRecord's purpose and Convention over Configuration
 - Setting up our database and models with ActiveRecord from scratch
