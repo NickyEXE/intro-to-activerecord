@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_13_212302) do
+ActiveRecord::Schema.define(version: 2021_04_13_213459) do
 
   create_table "philosophers", force: :cascade do |t|
     t.string "name"
     t.text "quote"
     t.integer "power_level"
     t.boolean "evil"
+    t.integer "hp"
   end
 
 end
